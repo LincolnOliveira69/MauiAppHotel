@@ -73,5 +73,11 @@
 	    <Generator>MSBuild:Compile</Generator>
 	  </MauiXaml>
 	</ItemGroup>
+	
+	<ItemGroup>
+		<Compile Update="Views\ContratacaoHospedagem.xaml.cs">
+			<DependentUpon>ContratacaoHospedagem.xaml</DependentUpon>
+		</Compile>
+	</ItemGroup>
 
 </Project>
