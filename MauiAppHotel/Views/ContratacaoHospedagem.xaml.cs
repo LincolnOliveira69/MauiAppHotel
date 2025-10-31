@@ -6,4 +6,10 @@ public partial class ContratacaoHospedagem : ContentPage
 	{
 		InitializeComponent();
 	}
+
+    private async void OnSobreTapped(object sender, EventArgs e)
+    {
+        await Navigation.PushAsync(new PaginaSobre());
+    }
+
 }
